@@ -17,7 +17,7 @@ feature_names = [
 
 def edit_distance(u, v, l):
     if l == -1:
-        return np.sum((np.array(u) == np.array(v)).astype(int))
+        return np.sum((np.array(u) != np.array(v)).astype(int))
     elif l == 0:
         raise Exception("l cannot equal 0")
     elif l == np.inf:

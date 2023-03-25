@@ -5,6 +5,8 @@ from lab3_utils import (
 from lab3 import k_nearest_neighbors, preprocess_data
 import numpy as np
 import time
+import pandas as pd
+import matplotlib.pyplot as plt
 
 
 if __name__ == "__main__":
@@ -44,4 +46,5 @@ if __name__ == "__main__":
     print(f"Highest accuracy achieved: {best_accuracy:0.4f}")
     for k, l, w in zip(best_k, best_metric, best_weighting):
         print(f"\t k= {k+1} - l= {l_norms[l]} - weighting= {weighting_options[w]}]")
-
+        
+    

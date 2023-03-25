@@ -40,3 +40,14 @@ True
 The test file can be run it will try to use the `preprocess_data` and `k_nearest_neighbors` as they are outline in the lab3 PDF.
 
 The test file uses `load_data` this pulls a tuple from the data
+
+
+#######################################################################################################################################
+
+I included pandas and used it to make the table, i dont think i changed anything else in the test file
+I also used my own distance function and called it in lab3 file and did not use the distance function in the utils file 
+
+#######################################################################################################################################
+
+
+I WANT TO USE A LATE DUAY FOR THIS ASSIGNMENT (1 LATE DAY)
