@@ -1,8 +1,8 @@
-from lab3_utils import (
+from knearest_utils import (
     accuracy_score,
     load_data
 )
-from lab3 import k_nearest_neighbors, preprocess_data
+from knearest import k_nearest_neighbors, preprocess_data
 import numpy as np
 import time
 import pandas as pd

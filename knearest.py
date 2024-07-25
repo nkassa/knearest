@@ -1,5 +1,5 @@
 import numpy as np
-from lab3_utils import edit_distance, feature_names
+from knearest_utils import edit_distance, feature_names
 import pandas as pd
 
 
